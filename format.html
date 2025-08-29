@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Форматування та гра</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1>Стаття про веб-розробку</h1>
+  <h2>Форматування тексту</h2>
+
+  <p>Веб-розробка – це <b>створення</b> та <i>оформлення</i> сайтів. 
+  Вона включає <strong>HTML</strong>, <em>CSS</em> та JavaScript.</p>
+
+  <blockquote>«Будь-який достатньо складний код неможливо відрізнити від магії»</blockquote>
+
+  <h3>Списки</h3>
+  <p>Популярні мови для вебу:</p>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ul>
+
+  <p>Етапи створення сайту:</p>
+  <ol>
+    <li>Планування</li>
+    <li>Розробка</li>
+    <li>Тестування</li>
+    <li>Публікація</li>
+  </ol>
+
+  <h3>Таблиця</h3>
+  <table border="1">
+    <tr>
+      <th>Мова</th>
+      <th>Призначення</th>
+    </tr>
+    <tr>
+      <td>HTML</td>
+      <td>Структура</td>
+    </tr>
+    <tr>
+      <td>CSS</td>
+      <td>Стиль</td>
+    </tr>
+    <tr>
+      <td>JavaScript</td>
+      <td>Логіка</td>
+    </tr>
+  </table>
+
+  <h3>Мультимедіа</h3>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="200" alt="HTML5">
+  
+  <br><br>
+  <video controls width="300">
+    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+
+  <br><br>
+  <audio controls>
+    <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+  </audio>
+
+  <h3>Вставлений фрейм</h3>
+  <iframe width="300" height="200" src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+
+  <hr>
+
+  <h2> Міні-гра: Вгадай число</h2>
+  <p>Я загадав число від 1 до 100. Спробуй відгадати!</p>
+  
+  <input type="number" id="guessInput" placeholder="Введи число">
+  <button onclick="checkGuess()">Перевірити</button>
+  <p id="result"></p>
+
+</body>
+</html>
