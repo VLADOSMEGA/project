@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset "UTF-8">
+    <title>Результати спортивного турніру</title>
+    <style>
+    table {
+      border-collapse: collapse;
+      width: 70%;
+      margin: 20px auto;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+    }
+    th {
+      text-align: center;
+      text-decoration: underline;
+      background-color: #f2f2f2;
+    }
+    td:first-child {
+      text-align: left;
+      font-weight: bold;
+    }
+    td {
+      text-align: right;
+    }
+    /* Виділяємо перші три команди */
+    .top1 { background-color: #ffd700; } /* золото */
+    .top2 { background-color: #c0c0c0; } /* срібло */
+    .top3 { background-color: #cd7f32; } /* бронза */
+    caption {
+      caption-side: top;
+      font-weight: bold;
+      margin-bottom: 10px;
+      font-size: 1.2em;
+    }
+    .note {
+      font-size: 0.9em;
+      font-style: italic;
+      margin-top: 10px;
+      text-align: center;
+    }
+    </style>
+</head>
+<body>
+  <table>
+    <caption>Результати спортивного турніру</caption>
+    <thead>
+      <tr>
+        <th>Команда</th>
+        <th>Кількість зіграних матчів</th>
+        <th>Перемоги</th>
+        <th>Поразки</th>
+        <th>Набрані очки</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="top-1">
+        <td>Динамо</td>
+        <td>10</td>
+        <td>8</td>
+        <td>2</td>
+        <td>24</td>
+      </tr>
+      <tr class="top-2">
+        <td>Шахтар</td>
+        <td>10</td>
+        <td>7</td>
+        <td>3</td>
+        <td>21</td>
+      </tr>
+       <tr class="top-3">
+        <td>Домінікано</td>
+        <td>10</td>
+        <td>7</td>
+        <td>3</td>
+        <td>21</td>
+      </tr>
+      <tr>
+        <td colspan="5" style="text-align:center; background:#eef;"></td>
+          Найкращий бомбардир: Владислав Павлович
+        </td>
+      </tr>
+      <tr>
+        <td>Гілтоп</td>
+        <td>10</td>
+        <td>5</td>
+        <td>5</td>
+        <td>15</td>
+      </tr>
+      <tr>
+        <td>Александрія</td>
+        <td>10</td>
+        <td>3</td>
+        <td>7</td>
+        <td>9</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="5" style="text-align:center;">
+          Наступний тур відбудеться 15:05 — Динамо проти Шахтар. Гілтоп дискваліфікований на 1 матч
+        </td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+</html>
